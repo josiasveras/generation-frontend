@@ -32,19 +32,20 @@
             <section class="form">
                 <h2>Entre em contato comigo</h2>
                 <form>
+                    <div id="msgNome"></div>
                     <label for="nome">Nome:</label>
-                    <input type="text" id="nome">
+                    <input type="text" id="nome" onkeyup="validaNome()">
                     <br>
-                    <br>
+                    <div id="msgEmail"></div>
                     <label for="email">Email:</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" onkeyup="validaEmail()">
                     <br>
-                    <br>
+                    <div id="msgAssunto"></div>
                     <label for="assunto">Assunto:</label>
-                    <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                    <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
                     <br>
                     <br>
-                    <button>Enviar</button>
+                    <button onclick="enviar()">Enviar</button>
                 </form>
             </section>
 
@@ -61,6 +62,8 @@
         <footer>
             <p>Feito por - Jorzias Veras - 2022</p>
         </footer>
+
+        <script src="assets/js/script.js"></script>
     </body>
 
 </html>
