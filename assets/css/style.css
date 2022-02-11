@@ -97,7 +97,8 @@ section {
     justify-content: space-between
 }
 
-#sobreMim, #meuVideo {
+#sobreMim,
+#meuVideo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,21 +121,21 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem
+    padding: 2rem;
 }
 
 .form form {
     width: 70%;
     margin: 0 auto;
-    
 }
 
-label{
+label {
     text-align: left;
     color: white;
-  }
-  
-  input, textarea {
+}
+
+input,
+textarea {
     width: 100%;
     margin-bottom: 1.5rem;
     padding: 5px 10px;
@@ -143,10 +144,10 @@ label{
     color: black;
     background-color: azure;
 
- 
-  }
-  
-  button {
+
+}
+
+button {
     padding: 5px 1rem;
     width: 40%;
     margin: 0 auto;
@@ -156,14 +157,14 @@ label{
     border-radius: 8px;
     color: #fcfcfc;
     text-transform: uppercase;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: azure;
     color: #151313;
-  }
+}
 
-  footer {
+footer {
     font-weight: 900;
     font-size: 14pt;
     color: white;
