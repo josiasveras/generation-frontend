@@ -140,7 +140,10 @@ label{
     padding: 5px 10px;
     border-radius: 8px;
     border: 0;
-    color: white;
+    color: black;
+    background-color: azure;
+
+ 
   }
   
   button {
@@ -149,14 +152,14 @@ label{
     margin: 0 auto;
     display: block;
     background-color: #151313;
-    border: 2px solid #fcfcfc;
+    border: 2px solid azure;
     border-radius: 8px;
     color: #fcfcfc;
     text-transform: uppercase;
   }
   
   button:hover {
-    background-color: #fcfcfc;
+    background-color: azure;
     color: #151313;
   }
 
